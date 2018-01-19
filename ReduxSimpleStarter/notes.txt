@@ -1,7 +1,0 @@
-Redux:
-------
-
-    - Reducers: function that returns a piece of the application state. Application can have many different states so there can be multiple reducers.
-        Application state is a plain JS object. eg: all books by Books Reducer, active book my Active Book reducer.
-            • Books Reducer produces array of books.
-    - 
