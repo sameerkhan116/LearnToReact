@@ -1,10 +1,35 @@
+body {
+    background-image: url("bgimage.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 td, th {
     vertical-align: middle !important;
     text-align: center !important;
+    color: white;
 }
 
+input {
+    color: white !important;
+}
 .input-group {
     margin: 20px 0px;
+    
+}
+
+input.form-control {
+    background-color: transparent
+}
+
+input::placeholder {
+    color: white !important;
+    opacity: 1;
+}
+
+button {
+    background-color: transparent !important;
+    color: white !important;
 }
 
 svg {
